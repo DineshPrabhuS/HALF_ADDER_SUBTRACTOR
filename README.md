@@ -1,4 +1,4 @@
-![Screenshot (68)](https://github.com/user-attachments/assets/677f2b6d-52ad-45b8-8292-8444598ecfa2)# HALF_ADDER_SUBTRACTOR
+# HALF_ADDER_SUBTRACTOR
 
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
 
@@ -75,3 +75,4 @@ RegisterNumber: 24004388
 ![Screenshot (69)](https://github.com/user-attachments/assets/72fa98a3-66a2-45c1-a655-18a4bdc836be)
 
 **Result:**
+Thus verified truth table of the designed half adder and half subtractor circuit in Quartus using Verilog programming.
