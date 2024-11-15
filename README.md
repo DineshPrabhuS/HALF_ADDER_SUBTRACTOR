@@ -1,4 +1,4 @@
-# HALF_ADDER_SUBTRACTOR
+![Screenshot (68)](https://github.com/user-attachments/assets/677f2b6d-52ad-45b8-8292-8444598ecfa2)# HALF_ADDER_SUBTRACTOR
 
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
 
@@ -52,10 +52,26 @@ Figure -02 HALF Subtractor
 
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
+```
+module exp3(a,b,cy, sm, df,bo);
+input a,b;
+output sm,cy,df,bo;
+xor(sm,a,b);
+and(cy,a,b);
+xor(df,a,b);
+and (bo,~a,b);
+endmodule
+```
+
+Developed by: Dinesh Prabhu S
+RegisterNumber: 24004388
 
 **RTL Schematic**
 
+![Screenshot (68)](https://github.com/user-attachments/assets/236993d3-7d1b-4230-bd45-a811f1f44411)
+
 **Output/TIMING Waveform**
+
+![Screenshot (69)](https://github.com/user-attachments/assets/72fa98a3-66a2-45c1-a655-18a4bdc836be)
 
 **Result:**
